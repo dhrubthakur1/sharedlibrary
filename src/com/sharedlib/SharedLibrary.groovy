@@ -11,6 +11,6 @@ public class SharedLibrary {
     println("22")
     println(pipeline)
     //steps.echo "echo Hello World!"    
-    pipeline.steps.sh "echo Hello World!"
+    pipeline.steps.bat "echo Hello World!"
   }
 }
