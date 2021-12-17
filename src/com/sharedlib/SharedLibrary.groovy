@@ -1,16 +1,16 @@
 package com.sharedlib;
 
 public class SharedLibrary {
-  def steps
+  def pipeline
   
-  public SharedLibrary(steps) {    
-    this.steps = steps
+  public SharedLibrary(pipeline) {    
+    this.pipeline = pipeline
   }
   
   public void startBuild() {
     println("22")
-    println(steps)
+    println(pipeline)
     //steps.echo "echo Hello World!"    
-    steps.steps.sh "echo Hello World!"
+    pipeline.steps.sh "echo Hello World!"
   }
 }
