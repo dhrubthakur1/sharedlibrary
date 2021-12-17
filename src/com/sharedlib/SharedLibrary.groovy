@@ -10,6 +10,7 @@ public class SharedLibrary {
   public void startBuild() {
     println("22")
     println(steps)
-    steps.echo "echo Hello World!"    
+    //steps.echo "echo Hello World!"    
+    steps.pipeline.sh
   }
 }
