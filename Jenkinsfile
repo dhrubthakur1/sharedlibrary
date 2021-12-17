@@ -1,3 +1,3 @@
 @Library('shared-lib-src') _
-import com.sharedlib;
+import com.sharedlib.SharedLibrary;
 new SharedLibrary("Hello World")
