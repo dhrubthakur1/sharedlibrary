@@ -3,15 +3,13 @@ package com.sharedlib;
 public class SharedLibrary {
   def steps
   
-  public SharedLibrary(steps) {
-    println("111")
+  public SharedLibrary(steps) {    
     this.steps = steps
   }
   
   public void startBuild() {
     println("22")
     println(steps)
-    steps.sh "echo Hello World!"
-    //steps.echo "Hello, World!"
+    steps.sh "echo Hello World!"    
   }
 }
